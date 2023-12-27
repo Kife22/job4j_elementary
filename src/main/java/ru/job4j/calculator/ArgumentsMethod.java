@@ -9,7 +9,7 @@ public class ArgumentsMethod {
     public static void main(String[] args) {
         String name = "Job4j";
         int age = 6;
-        for (int i = 0; i < 4; i++){
+        for (int i = 0; i < 4; i++) {
             ArgumentsMethod.hello(name, age);
         }
 
