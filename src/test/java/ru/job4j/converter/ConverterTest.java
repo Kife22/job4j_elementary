@@ -2,7 +2,6 @@ package ru.job4j.converter;
 
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
-import ru.job4j.converter.Converter;
 import static org.assertj.core.api.Assertions.*;
 
 
