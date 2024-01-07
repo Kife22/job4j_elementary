@@ -6,7 +6,6 @@ import ru.job4j.converter.Converter;
 
 import static org.assertj.core.api.Assertions.*;
 
-
 class ConverterTest {
 
     @Test
