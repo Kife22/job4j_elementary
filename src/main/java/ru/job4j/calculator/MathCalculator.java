@@ -1,20 +1,21 @@
 package ru.job4j.calculator;
-import ru.job4j.math.MathFunction;
+
+import static ru.job4j.math.MathFunction.*;
 
 public class MathCalculator {
 
     public static double subtractAndDivided(double first, double second) {
-        return MathFunction.subtract(first, second) + MathFunction.divided(first, second);
+        return subtract(first, second) + divided(first, second);
     }
 
     public static double sumAllFunction(double first, double secend) {
-        return MathFunction.multiply(first, secend) + MathFunction.sum(first, secend)
-               + MathFunction.subtract(first, secend) + MathFunction.divided(first, secend);
+        return multiply(first, secend) + sum(first, secend)
+               + subtract(first, secend) + divided(first, secend);
     }
 
     public static double sumAndMultiply(double first, double second) {
-        return MathFunction.sum(first, second)
-                + MathFunction.multiply(first, second);
+        return sum(first, second)
+                + multiply(first, second);
     }
 
     public static void main(String[] args) {
