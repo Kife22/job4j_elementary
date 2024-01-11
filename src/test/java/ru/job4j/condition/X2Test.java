@@ -3,7 +3,7 @@ package ru.job4j.condition;
 import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.*;
 
-class X22Test {
+class X2Test {
 
     @Test
     void whenA10B0C0X2Then40() {
