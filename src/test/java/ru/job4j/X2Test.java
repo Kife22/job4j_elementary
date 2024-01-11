@@ -1,8 +1,8 @@
 package ru.job4j;
 
 import org.junit.jupiter.api.Test;
-import ru.job4j.condition.X2;
-import static org.assertj.core.api.Assertions.*;
+import static org.assertj.core.api.Assertions.assertThat;
+import static ru.job4j.condition.X2.calc;
 
 class X2Test {
     @Test
@@ -12,7 +12,7 @@ class X2Test {
         int c = 0;
         int x = 2;
         int expected = 40;
-        int result = X2.calc(a, b, c, x);
+        int result = calc(a, b, c, x);
         assertThat(result).isEqualTo(expected);
     }
 
@@ -23,7 +23,7 @@ class X2Test {
         int c = 1;
         int x = 1;
         int expected = 3;
-        int result = X2.calc(a, b, c, x);
+        int result = calc(a, b, c, x);
         assertThat(result).isEqualTo(expected);
     }
 
@@ -34,7 +34,7 @@ class X2Test {
         int c = 1;
         int x = 1;
         int expected = 2;
-        int result = X2.calc(a, b, c, x);
+        int result = calc(a, b, c, x);
         assertThat(result).isEqualTo(expected);
     }
 
@@ -45,7 +45,7 @@ class X2Test {
         int c = 0;
         int x = 1;
         int expected = 2;
-        int result = X2.calc(a, b, c, x);
+        int result = calc(a, b, c, x);
         assertThat(result).isEqualTo(expected);
     }
 }
