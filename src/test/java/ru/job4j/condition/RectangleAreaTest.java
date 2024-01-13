@@ -34,7 +34,7 @@ class RectangleAreaTest {
     }
 
     @Test
-    void whenP10K25SquareDot510() {
+    void whenP10K2Dot5Square5Dot10() {
         double expected = 5.10;
         int p = 10;
         double k = 2.5;
