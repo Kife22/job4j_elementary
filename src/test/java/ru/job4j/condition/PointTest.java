@@ -38,7 +38,7 @@ class PointTest {
     }
 
     @Test
-    void when62to11then5Do09() {
+    void when62to11then5Dot09() {
         double expected = 5.09;
         int x1 = 6;
         int y1 = 2;
