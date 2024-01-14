@@ -32,7 +32,7 @@ class MaxTest {
     }
 
     @Test
-    void whenMAx5To5Then5() {
+    void whenMax5To5Then5() {
         int left = 5;
         int right = 5;
         int result = Max.max(left, right);
