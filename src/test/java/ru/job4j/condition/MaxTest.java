@@ -23,7 +23,7 @@ class MaxTest {
     }
 
     @Test
-    void whenMax3To7Then() {
+    void whenMax3To7Then7() {
         int left = 3;
         int right = 7;
         int result = Max.max(left, right);
