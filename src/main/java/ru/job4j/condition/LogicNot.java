@@ -9,8 +9,8 @@ public class LogicNot {
         return num > 0;
     }
 
-    public static boolean notEven(int num) {
-        return !isEven(num);
+    public static boolean notEven(int nu) {
+        return !isEven(nu);
     }
 
     public static boolean notPositive(int num) {
