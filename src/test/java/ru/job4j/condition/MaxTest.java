@@ -23,11 +23,11 @@ class MaxTest {
     }
 
     @Test
-    void whenMax3To6Then() {
+    void whenMax3To7Then() {
         int left = 3;
-        int right = 6;
+        int right = 7;
         int result = Max.max(left, right);
-        int expected = 6;
+        int expected = 7;
         assertThat(result).isEqualTo(expected);
     }
 
